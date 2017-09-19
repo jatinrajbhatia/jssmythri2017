@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jss.jssatenmythri2017_18.helper.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- We dont want to be able to click the CheckBox -
+         android:clickable="false" added.
+         CheckableRelativeLayout takes care of the toggle when clicking the row -->
+    <CheckBox
+        android:id="@+id/myCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/customcheckbox_background"
+        android:button="@drawable/customcheckbox"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/listview_TeamDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/myCheckBox"
+        android:focusable="false"
+        android:textColor="#000"
+        android:textSize="16sp" />
+</com.jss.jssatenmythri2017_18.helper.CheckableRelativeLayout>

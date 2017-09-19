@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jss.jssatenmythri2017_18">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.GamedetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.RegisterActivity"
+            android:label="Register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.registeration.F8Activity"
+            android:label="Details"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.registeration.RegistrationActivity"
+            android:label="Registration"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.Athelics_Listview"
+            android:label="Athelitics"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.registeration.Main_choice_Activity"
+            android:label="Registration"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.registeration.t_shirtActivity"
+            android:label="Registration"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.coordinator.SetFixtures"
+            android:label="Set Fixtures"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.coordinator.ViewFixtures"
+            android:label="View Fixtures"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jss.jssatenmythri2017_18.activity.coordinator.WinnerUpdate"
+            android:label="Registration"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jss.jssatenmythri2017_18.activity.coordinator.Coordinater_nav_activity"
+            android:label="Coordinator"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.jss.jssatenmythri2017_18.activity.Team_member_reclyerview"
+            android:label="Team Details"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

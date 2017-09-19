@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/my_event"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Your Event" />
+        <item
+            android:id="@+id/games"
+            android:icon="@drawable/games"
+            android:title="All Games" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/current"
+            android:title="Notification" />
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/about_app"
+            android:title="About App"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/log_out_24dp"
+            android:title="Logout" />
+
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/about"
+            android:title="Support" />
+
+</group>
+</menu>

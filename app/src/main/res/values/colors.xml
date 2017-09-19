@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#196</color>
+    <color name="colorPrimaryDark">#196</color>
+    <color name="colorAccent">#117751</color>
+    <color name="list_background">#181717</color>
+    <color name="list_divider">#f7f9f8</color>
+    <color name="list_selector">#999696</color>
+    <color name="list_background_pressed">#196</color>
+    <color name="counter_text_bg">#fffefe</color>
+    <color name="list_item_title">#1b1b1b</color>
+    <color name="counter_text_color">#fffefe</color>
+    <color name="textColorHeadings">#196</color>
+</resources>

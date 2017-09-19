@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    >
+
+    <ListView android:id="@+id/myListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="multipleChoice"
+        android:layout_marginBottom="60dp"/>
+
+    <Button android:id="@+id/buttonStart"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Start tournament with selected teams"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:background="@drawable/view_selector"
+        />
+</RelativeLayout>

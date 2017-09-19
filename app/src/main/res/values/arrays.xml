@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="games_arrays">
+        <item>Badminton</item>
+        <item>Table Tennis</item>
+        <item>Carrom</item>
+        <item>Tug Of War</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Volley ball</item>
+        <item>Chess</item>
+        <item>Basket Ball</item>
+        <item>Shot Put</item>
+        <item>Athelitics</item>
+        <item>kabaddi</item>
+        <item>Fun Games</item>
+    </string-array>
+    <string-array name="gender_arrays">
+        <item>none</item>
+        <item>Girls</item>
+        <item>Boys</item>
+    </string-array>
+    <string-array name="size_arrays">
+        <item>none</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <string-array name="types_arrays">
+        <item>none</item>
+        <item>Singles</item>
+        <item>Doubles</item>
+        <item>Mixed</item>
+        <item>100mts</item>
+        <item>200mts</item>
+        <item>4x100mts</item>
+        <item>100mts Three Legged Race</item>
+        <item>Blind Shoot</item>
+        <item>Dart</item>
+        <item>3 Shots</item>
+        <item>Basket Shoot</item>
+        <item>Ball Bounce</item>
+    </string-array>
+</resources>

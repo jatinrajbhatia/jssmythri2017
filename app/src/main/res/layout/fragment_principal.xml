@@ -1,0 +1,246 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jss.jssatenmythri2017_18.activity.About_app">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JSSATEN MYTHRI 2017-18"
+            android:textColor="#117751"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            />
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="match_parent"
+            android:layout_height= "1dp"
+            android:background="#119" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:textColor="#119"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="WELCOME"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:id="@+id/para2"
+                android:textColor="#000000"
+                android:text="Welcome to JSSATE NOIDA, a temple of Learning, dedicated to providing the best educational opportunities. Thus, the college, in consonance with its Vision and Mission, equips the students to be productive and proactive human resources and responsible citizens of the nation. We at this college are committed for imparting best technical education as we are having the best infrastructure available in this region. We are confident that the students will make the best use of these facilities in their career building."
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/principal"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prof. (Dr.) Gurulingappa M. Patil\n(PRINCIPAL)"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cao"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cmde B K Gupta NM(Retd.)\n(CAO)"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/registrar"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. S S Shirur\n(REGISTRAR)"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ao"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. N.S. Manoj Kumar\n(AO)"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hod_mba"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Yogendra Singh\nHOD-MBA\n(CONVENER)"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/view_shape"
+
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/vikas_singhal"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mr. VIKAS SINGHAL\nHOD-MCA\n(Co-CONVENER)"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:padding="5dp"
+                        android:textColor="#119"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/view_shape"
+
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/girish_sir_ped"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mr. GIRISH B.E.\nPED\n(Member Secretary)"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:padding="5dp"
+                        android:textColor="#119"
+                        />
+
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+</ScrollView>
+</FrameLayout>
+

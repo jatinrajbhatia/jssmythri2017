@@ -1,0 +1,247 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jss.jssatenmythri2017_18.activity.About_app">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JSSATEN MYTHRI 2017-18"
+            android:textColor="#117751"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            />
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="match_parent"
+            android:layout_height= "1dp"
+            android:background="#119" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JSSATEN MYTHRI 2017-18 ANDROID"
+                android:textStyle="bold"
+                android:id="@+id/para1"
+                android:textSize="18dp"
+                android:textColor="#119"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:id="@+id/para2"
+                android:textColor="#000000"
+                android:text=" App is created,hosted and maintained by "
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:textColor="#119"
+                android:textStyle="bold"
+                android:text="Department Of Computer Applications."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIt would not have been possible to develop and tackle the issues regarding the making without the constant support of:\n"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/girish_sir_ped"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mr.B E GIRISH\n(PED)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vikas_singhal"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mr.Vikas Singhal\n(HOD-MCA)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/SplitLine_hor3"
+                android:layout_width="match_parent"
+                android:layout_height= "3dp"
+                android:background="#196" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jrb"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jatin Bhatia\n(MCA-2015 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chaudhary"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saurabh Bharadwaj\n(MCA-2015 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/karan"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karan Lalwani\n(MCA-2014 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ashwani_pandey"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ashwani Pandey\n(MCA-2013 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>
+
