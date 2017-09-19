@@ -47,7 +47,7 @@ public class LoginActivity extends Activity {
     //Pref by Ashwani - pref of whole app
     SharedPreferences sharedPreferences;
     final String LOGIN_KEY = "logged_in";
-    final String PREF_NAME = "mythri-2017";
+    final String PREF_NAME = "mythri-2016";
     final String IS_REGISTERATION = "registeration";
     String USERNAME = "useername";
     String MYTHRI_ID = "mythri_id";

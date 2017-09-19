@@ -9,11 +9,15 @@
         <item
             android:id="@+id/my_event"
             android:icon="@drawable/ic_face_black_24dp"
-            android:title="Your Event" />
+            android:title="Your Games" />
         <item
             android:id="@+id/games"
             android:icon="@drawable/games"
             android:title="All Games" />
+        <item
+            android:id="@+id/committee"
+            android:icon="@drawable/games"
+            android:title="Committee" />
         <item
             android:id="@+id/notification"
             android:icon="@drawable/current"
@@ -25,14 +29,15 @@
             />
 
         <item
-            android:id="@+id/logout"
-            android:icon="@drawable/log_out_24dp"
-            android:title="Logout" />
-
-        <item
             android:id="@+id/support"
             android:icon="@drawable/about"
             android:title="Support" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/log_out_24dp"
+            android:title="Logout" />
 
 </group>
 </menu>

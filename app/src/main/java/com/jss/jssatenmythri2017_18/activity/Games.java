@@ -23,7 +23,7 @@ public class Games extends Fragment {
     RecyclerView.LayoutManager layoutManager;
     String[] name={"Badminton","Table Tennis","Chess","Carrom",
             "Tug Of War","Cricket","Football","Volleyball",
-            "Basketball","Athelitics","Kabaddi","Fun Games"};
+            "Basketball","Athelitics", "Shot Put","Kabaddi","Fun Games"};
    ArrayList<Text_Getter_Setter> list=new ArrayList<Text_Getter_Setter>();
 
     @Override

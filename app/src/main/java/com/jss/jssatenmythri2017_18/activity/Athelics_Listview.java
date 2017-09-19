@@ -15,7 +15,9 @@ import com.jss.jssatenmythri2017_18.R;
 public class Athelics_Listview extends AppCompatActivity {
   ListView lv;
     ArrayAdapter arrayAdapter;
-    String string[]={"100m Running","200m Running","4x100m Relay","100m 3 Three Legged Race"};
+    String string[]={"100m Running","200m Running","4x100m Relay",
+    //"100m 3 Three Legged Race"
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,12 +52,12 @@ public class Athelics_Listview extends AppCompatActivity {
                             i.putExtra("title",string);
                             startActivity(i);
                         }break;
-                        case "100m 3 Three Legged Race":{
-                            Toast.makeText(getApplicationContext(),string,Toast.LENGTH_LONG).show();
-                            Intent i=new Intent(getApplicationContext(),GamedetailActivity.class);
-                            i.putExtra("title",string);
-                            startActivity(i);
-                        }break;
+//                        case "100m 3 Three Legged Race":{
+//                            Toast.makeText(getApplicationContext(),string,Toast.LENGTH_LONG).show();
+//                            Intent i=new Intent(getApplicationContext(),GamedetailActivity.class);
+//                            i.putExtra("title",string);
+//                            startActivity(i);
+//                        }break;
                     }
                 }
             });

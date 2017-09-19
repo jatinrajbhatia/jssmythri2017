@@ -61,7 +61,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NAME"
+                    android:text=""
                     android:textColor="#119"
                     android:textSize="15dp"/>
                 <TextView
@@ -100,7 +100,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NAME"
+                    android:text=""
                     android:textColor="#119"
                     android:textSize="15dp"/>
 
@@ -151,7 +151,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NAME"
+                    android:text=""
                     android:textColor="#119"
                     android:textSize="15dp"/>
                 <TextView
@@ -162,12 +162,12 @@
                     android:padding="5dp"
                     android:text="Mr. abc"
                     android:textSize="15dp" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mob No."
-                    android:textColor="#119"
-                    android:textSize="15dp"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#119"-->
+                    <!--android:textSize="15dp"/>-->
                 <TextView
                     android:id="@+id/studentnumber1"
                     android:textColor="#000000"
@@ -202,7 +202,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NAME"
+                    android:text=""
                     android:textColor="#119"
                     android:textSize="15dp"/>
                 <TextView
@@ -214,18 +214,18 @@
                     android:text="Mr. abc"
                     android:textSize="15dp" />
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mob No."
-                    android:textColor="#119"
-                    android:textSize="15dp"/>
-                <TextView
                     android:id="@+id/studentnumber2"
                     android:layout_width="wrap_content"
                     android:textColor="#000000"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:text="" />
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#119"-->
+                    <!--android:textSize="15dp"/>-->
             </LinearLayout>
 
 
@@ -252,7 +252,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NAME"
+                    android:text=""
                     android:textColor="#119"
                     android:textSize="15dp"/>
                 <TextView
@@ -263,12 +263,12 @@
                     android:text="Mr. abc"
                     android:textColor="#000000"
                     android:textSize="15dp" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mob No."
-                    android:textColor="#119"
-                    android:textSize="15dp"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#119"-->
+                    <!--android:textSize="15dp"/>-->
                 <TextView
                     android:id="@+id/studentnumber3"
                     android:textColor="#000000"
@@ -328,7 +328,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="venue :"
+            android:text="Venue :"
             android:textColor="#119"
             android:layout_gravity="center"
             android:textSize="20dp"

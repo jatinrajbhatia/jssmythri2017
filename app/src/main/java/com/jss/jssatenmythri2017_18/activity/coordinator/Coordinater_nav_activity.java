@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.jss.jssatenmythri2017_18.R;
 import com.jss.jssatenmythri2017_18.activity.About;
 import com.jss.jssatenmythri2017_18.activity.About_app;
+import com.jss.jssatenmythri2017_18.activity.Committee;
 import com.jss.jssatenmythri2017_18.activity.Games;
 import com.jss.jssatenmythri2017_18.activity.LoginActivity;
 import com.jss.jssatenmythri2017_18.activity.Notification;
@@ -89,6 +90,10 @@ public class Coordinater_nav_activity extends AppCompatActivity
         {
             android.support.v4.app.FragmentManager transaction =getSupportFragmentManager();
             transaction.beginTransaction().replace(R.id.coordinater_frame,new About_app()).commit();
+        }else if(id==R.id.committee)
+        {
+            android.support.v4.app.FragmentManager transaction =getSupportFragmentManager();
+            transaction.beginTransaction().replace(R.id.coordinater_frame,new Committee()).commit();
         }
         else if(id == R.id.logout){
             clearPref();

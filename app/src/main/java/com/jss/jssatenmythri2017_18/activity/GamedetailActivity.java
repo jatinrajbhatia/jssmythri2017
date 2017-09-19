@@ -62,9 +62,9 @@ public class GamedetailActivity extends AppCompatActivity {
         switch (data) {
             case "Badminton": {
                 title.setText(data);
-                studentOneName.setText("Shubham Dubey\n(EC/4th yr)");
-                studentTwoName.setText("Kuldeep Yadav \n(EC/4th yr)");
-                studentThreeName.setText("Shivam Deshwal(IT/4th yr)");
+                studentOneName.setText("Shubham Dubey\nEC/4th yr");
+                studentTwoName.setText("Kuldeep Yadav \nEC/4th yr");
+                studentThreeName.setText("Shivam Deshwal\nIT/4th yr");
                 facultyName.setText("Mr. Sadashiva T\nAP-MBA");
                 facultyImage.setImageResource(R.drawable.sadashiv);
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
@@ -125,7 +125,7 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "Table Tennis": {
                 title.setText(data);
-                studentOneName.setText("Shikhar Yadav–(ME/4th yr)");
+                studentOneName.setText("Shikhar Yadav\nME/4th yr");
                 studentCoordinatorTwo.setVisibility(View.GONE);
                 studentCoordinatorThree.setVisibility(View.GONE);
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
@@ -174,7 +174,7 @@ public class GamedetailActivity extends AppCompatActivity {
                 studentCoordinatorTwo.setVisibility(View.GONE);
                 studentCoordinatorThree.setVisibility(View.GONE);
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
-                studentOneName.setText("Abhishek Tripathi(EE/4th yr)");
+                studentOneName.setText("Abhishek Tripathi\nEE/4th yr");
                 facultyName.setText("Mr. Harish Kumar\nAP-ENG");
                 studentOneContact.setText("9560239749");
                 String chess_rules="<HTML>\n" +
@@ -221,7 +221,7 @@ public class GamedetailActivity extends AppCompatActivity {
                         "</BODY></HTML>";
                 rules.loadData(chess_rules, "text/html", "UTF-8");
                 studentOneImage.setImageResource(R.drawable.abhishek_chess);
-                //facultyImage.setImageResource(R.drawable.harish_sir);
+                facultyImage.setImageResource(R.drawable.harish_chess);
                 type.setText("None");
                 venue.setText("MPH Chess Room");
 
@@ -230,8 +230,8 @@ public class GamedetailActivity extends AppCompatActivity {
             case "Carrom": {
                 title.setText(data);
 
-                studentOneName.setText("Pratiksha(EE/4th yr)");
-                studentTwoName.setText("Vivek Sharma(IT/4th yr)");
+                studentOneName.setText("Pratiksha\nEE/4th yr");
+                studentTwoName.setText("Vivek Sharma\nIT/4th yr");
                 facultyName.setText("Mr. Nirmal Kumar Agarwal\nAP-EE");
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
 
@@ -248,13 +248,13 @@ public class GamedetailActivity extends AppCompatActivity {
                         "\n" +
                         "pocketed pieces.<br>\n" +
                         "\n" +
-                        "<b>o</b> If a piece and the striker goes into the pocket at the same time, then player\n" +
+                        "<b>o</b> If a coin and the striker goes into the pocket at the same time, then player\n" +
                         "\n" +
-                        "loses two of his pocketed pieces, but gets a chance to shoot again.<br>\n" +
+                        "loses that particular pocketed coin and does not get a chance for pocketing it.<br>\n" +
                         "\n" +
                         "<b>o</b> The player is not allowed to move or get up from his chair while shooting.<br>\n" +
                         "\n" +
-                        "<b>o</b> If a piece falls off from the carrom board, it should be placed at the centre.<br>\n" +
+                        "<b>o</b> If a piece falls off from the carrom board, it should be placed in the centre.<br>\n" +
                         "\n" +
                         "<b>o</b> Only the players&#39; wrist is allowed to touch the carrom board and not any other\n" +
                         "\n" +
@@ -265,9 +265,7 @@ public class GamedetailActivity extends AppCompatActivity {
                         "<b>o</b> If the striker fails to leave both the lines, i.e. does not move in a single strike,\n" +
                         "\n" +
                         "the player gets 3 chances before he loses his turn.<br>\n" +
-                        "<b>o</b> The thumb can be used for backward shots or the player can make use of\n" +
-                        "\n" +
-                        "rebound shots to strike the pieces touching the player&#39;s baseline.<br>\n" +
+                        "<b>o</b> The thumb can be used for backward shots \n"+
                         "</p>\n" +
                         "</BODY></HTML>";
                 rules.loadData(carrom_rules, "text/html", "UTF-8");
@@ -278,11 +276,11 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "Tug Of War": {
                 title.setText(data);
-                studentOneName.setText("Gaurav Kumar(MCA/3rd yr)");
-                studentTwoName.setText("Rishabh Gupta(IT/4th yr)");
+                studentOneName.setText("Gaurav Kumar\nMCA/3rd yr");
+                studentTwoName.setText("Rishabh Gupta\nIT/4th yr");
                 studentCoordinatorThree.setVisibility(View.GONE);
 
-                facultyName.setText("Mr. Ankur Garg \nAP-Hum");
+                facultyName.setText("Mr. Ankur Garg\nAP-Hum");
                 facultyImage.setImageResource(R.drawable.ankur_tug);
                 studentOneImage.setImageResource(R.drawable.gaurav_kumar);
                 studentTwoImage.setImageResource(R.drawable.rishabh_tug);
@@ -307,15 +305,16 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "Cricket": {
                 title.setText(data);
-                studentOneName.setText("Amardeep Singh(CE/4th yr)");
-                studentTwoName.setText("Birendra Yadav(CE/4th yr)");
-                studentThreeName.setText("Abhishek Tiwari(EEE/4th yr)");
+                studentOneName.setText("Amardeep Singh\nCE/4th yr");
+                studentTwoName.setText("Birendra Yadav\nCE/4th yr");
+                studentThreeName.setText("Abhishek Tiwari\nEEE/4th yr");
                 facultyName.setText("Mr. Vikas Kumar Singla\nAP-ME");
                 studentOneContact.setText("7291084488");
                 studentTwoContact.setText("9871505703");
                 studentThreeContact.setText("7042279702");
                 studentOneImage.setImageResource(R.drawable.amardeep_cricket);
                 studentTwoImage.setImageResource(R.drawable.birendra_cricket);
+                studentThreeImage.setImageResource(R.drawable.abhishek_cricket);
                 facultyImage.setImageResource(R.drawable.vikas_kumar_singla);
 
                 String cricketrules = "<HTML><BODY>" +
@@ -347,18 +346,18 @@ public class GamedetailActivity extends AppCompatActivity {
                 rules.loadData(cricketrules, "text/html", "UTF-8");
                 type.setText("None");
                 venue.setText("Outdoor-CRICKET GROUND");
-                studentCoordinatorThree.setVisibility(View.GONE);
+
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
 
             }
             break;
             case "Football": {
                 title.setText(data);
-                studentOneName.setText("Sanket Tripathi (EE/4th yr)");
+                studentOneName.setText("Sanket Tripathi\nEE/4th yr");
                 facultyName.setText("Mr.Bhupesh Aneja\nAP-IC");
                 studentOneContact.setText("8826122623");
-//                studentOneImage.setImageResource(R.drawable.abhishek_football);
-//                facultyImage.setImageResource(R.drawable.bhu_foot);
+                studentOneImage.setImageResource(R.drawable.sanket_football);
+                facultyImage.setImageResource(R.drawable.bhu_foot);
                 type.setText("None");
                 venue.setText("Outdoor-FOOTBALL GROUND");
                 String football_rules ="<HTML>\n" +
@@ -399,14 +398,14 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "Volleyball": {
                 title.setText(data);
-                studentOneName.setText("ARPIT GUPTA(ME/4th yr)");
-                studentTwoName.setText("Sakshi Gupta(CS/4th yr)");
-                studentThreeName.setText("Shreya Singh(EC/4th yr)");
+                studentOneName.setText("ARPIT GUPTA\nME/4th yr");
+                studentTwoName.setText("Sakshi Gupta\nCS/4th yr");
+                studentThreeName.setText("Shreya Singh\nEC/4th yr");
                 facultyName.setText("Mr. Sukhendra Singh\nAP-IT");
                 studentOneContact.setText("9818798956");
                 studentTwoContact.setText("9868150252");
                 studentThreeContact.setText("8287013429");
-                //facultyImage.setImageResource(R.drawable.harshvardhan);
+                facultyImage.setImageResource(R.drawable.sukh);
                 studentOneImage.setImageResource(R.drawable.arpit_volleyball);
                 studentTwoImage.setImageResource(R.drawable.sakshi_volleyball);
                 studentThreeImage.setImageResource(R.drawable.shreya_volleyball);
@@ -451,14 +450,14 @@ public class GamedetailActivity extends AppCompatActivity {
 
             case "Basketball": {
                 title.setText(data);
-                studentOneName.setText("Vaibhav Dwivedi(ME/4th yr)");
-                studentTwoName.setText("Anamika (EEE/4th yr)");
+                studentOneName.setText("Vaibhav Dwivedi\nME/4th yr");
+                studentTwoName.setText("Anamika\nEEE/4th yr");
                 facultyName.setText("Mr. Chidambara\nAP-Maths");
 
                studentOneImage.setImageResource(R.drawable.vibhav_basketball);
                 studentTwoImage.setImageResource(R.drawable.anamika_basket);
-//                facultyImage.setImageResource(R.drawable.girish_sir_ped);
-                facultyImage2.setImageResource(R.drawable.nikunj_agarwal);
+                facultyImage.setImageResource(R.drawable.chidambara);
+                //facultyImage2.setImageResource(R.drawable.nikunj_agarwal);
                 String basketball_rule="<HTML>\n" +
                         "<BODY>\n" +
                         "<p>\n" +
@@ -488,6 +487,8 @@ public class GamedetailActivity extends AppCompatActivity {
                 type.setText("None");
                 venue.setText("Outdoor-BASKETBALL COURT");
                 studentCoordinatorThree.setVisibility(View.GONE);
+                facualtyCoordinatorTwo.setVisibility(View.GONE);
+
 
             }
             break;
@@ -498,15 +499,20 @@ public class GamedetailActivity extends AppCompatActivity {
             }
             break;
 
+
             case "Shot Put": {
                 title.setText(data);
-                studentOneName.setText("Ruchir Verma(CS/4th yr)");
-                studentTwoName.setText("Aman Sharma (CS/4th yr)");
+                studentOneName.setText("Arnold Lui\nEE/4th yr");
+                studentTwoName.setText("Manish Kesharwani\nCS/4th yr");
                 facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
-                facultyName2.setText("Mrs.Shafali Bhakshi\nAP-CE");
-                studentOneContact.setText("9454847294");
-                studentTwoContact.setText("9015936544");
-                //studentOneImage.setImageResource(R.drawable.ruchir_ath);
+                facultyName2.setText("Mrs. Sapna Mathur\nAP-Hum");
+                studentOneContact.setText("9643023485");
+                studentTwoContact.setText("7503942814");
+                studentOneImage.setImageResource(R.drawable.arnold_ath);
+                studentTwoImage.setImageResource(R.drawable.manish_atheletics);
+                facultyImage.setImageResource(R.drawable.virendra_verma);
+                facultyImage2.setImageResource(R.drawable.sapna_hum);
+
                 String shotput_rules="<HTML>\n" +
                         "<BODY>\n" +
                         "<p>Competitors take their throw from inside a (7 feet) in diameter, with a toe\n" +
@@ -538,10 +544,7 @@ public class GamedetailActivity extends AppCompatActivity {
                         "the shot lands at its nearest disturbance of the soil.</p><br>\n" +
                         "</BODY></HTML>";
                 rules.loadData(shotput_rules,"text/html", "UTF-8");
-//                studentOneImage.setImageResource(R.drawable.ruchir_ath);
-//                studentTwoImage.setImageResource(R.drawable.aman_sharma_ath);
-//                facultyImage.setImageResource(R.drawable.virendra_verma);
-//                facultyImage2.setImageResource(R.drawable.shafali_bhakshi);
+
 
                 type.setText("None");
                 studentCoordinatorThree.setVisibility(View.GONE);
@@ -550,15 +553,17 @@ public class GamedetailActivity extends AppCompatActivity {
             }
             break;
 
+
             case "Kabaddi": {
                 title.setText(data);
-                studentOneName.setText("Aditya Srivastava(CS/4th yr)");
-                studentTwoName.setText("Anshul Singh(CE/4th yr)");
+                studentOneName.setText("Aditya Srivastava\nCS/4th yr");
+                studentTwoName.setText("Anshul Singh\nCE/4th yr");
                 facultyName.setText("Mr.Yogesh.K.S\nAP-Civil");
                 facultyName2.setText("Mr.Bharath Kumar\nAP-Civil");
                 studentOneContact.setText("8505982105");
                 studentTwoContact.setText("8588898351");
                 studentOneImage.setImageResource(R.drawable.aditya_kabaddi);
+                studentTwoImage.setImageResource(R.drawable.anshul_kabaddi);
                 facultyImage.setImageResource(R.drawable.yogesh);
                 facultyImage2.setImageResource(R.drawable.bharat);
                 type.setText("None");
@@ -586,7 +591,7 @@ public class GamedetailActivity extends AppCompatActivity {
                        "</BODY></HTML>";
                 rules.loadData(kabaddi_rules, "text/html", "UTF-8");
 
-                studentCoordinatorTwo.setVisibility(View.GONE);
+
                 studentCoordinatorThree.setVisibility(View.GONE);
 
             }
@@ -594,8 +599,8 @@ public class GamedetailActivity extends AppCompatActivity {
 
             case "Fun Games": {
                 title.setText(data);
-                studentOneName.setText("Shivam Gadgey(Civil/4th yr)");
-                studentTwoName.setText("Yamini Saurabh(ECE/4th yr)");
+                studentOneName.setText("Shivam Gadgey\nCivil/4th yr");
+                studentTwoName.setText("Yamini Saurabh\nECE/4th yr");
                 facultyName.setText("Mr.Mehboob Alam\nAP-CS");
                 facultyName2.setText("Mr.Ajith\nAP-EEE");
                 studentOneContact.setText("9643086941");
@@ -603,7 +608,7 @@ public class GamedetailActivity extends AppCompatActivity {
                 studentOneImage.setImageResource(R.drawable.shivamg_fungames);
                 studentTwoImage.setImageResource(R.drawable.yamini_fungames);
                 facultyImage.setImageResource(R.drawable.mahboob_alam);
-                //facultyImage2.setImageResource(R.drawable.preeti_jadka);
+                facultyImage2.setImageResource(R.drawable.ajith);
                 String fun_games_rule="<HTML>\n" +
                         "<BODY>\n" +
                         "<p><b>General rules to play fun games:</b><br><br>\n" +
@@ -649,10 +654,10 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "100m Running": {
                 title.setText(data);
-                studentOneName.setText("Arnold Lui(EE/4th yr)");
-                studentTwoName.setText("Manish Kesharwani (CS/4th yr)");
+                studentOneName.setText("Arnold Lui\nEE/4th yr");
+                studentTwoName.setText("Manish Kesharwani\nCS/4th yr");
                 facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
-                facultyName2.setText("Mrs. Sapna Mathur \nAP-Hum");
+                facultyName2.setText("Mrs. Sapna Mathur\nAP-Hum");
                 studentOneContact.setText("9643023485");
                 studentTwoContact.setText("7503942814");
                 studentOneImage.setImageResource(R.drawable.arnold_ath);
@@ -694,13 +699,13 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "200m Running": {
                 title.setText(data);
-                studentOneName.setText("Arnold Lui(EE/4th yr)");
-                studentTwoName.setText("Manish Kesharwani (CS/4th yr)");
+                studentOneName.setText("Arnold Lui\nEE/4th yr");
+                studentTwoName.setText("Manish Kesharwani\nCS/4th yr");
                 facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
-                facultyName2.setText("Mrs. Sapna Mathur \nAP-Hum");
+                facultyName2.setText("Mrs. Sapna Mathur\nAP-Hum");
 
                 facultyImage.setImageResource(R.drawable.virendra_verma);
-                //facultyImage2.setImageResource(R.drawable.shafali_bhakshi);
+                facultyImage2.setImageResource(R.drawable.sapna_hum);
                 studentOneImage.setImageResource(R.drawable.arnold_ath);
                 studentTwoImage.setImageResource(R.drawable.manish_atheletics);
                 studentOneContact.setText("9643023485");
@@ -740,17 +745,17 @@ public class GamedetailActivity extends AppCompatActivity {
             break;
             case "4x100m Relay": {
                 title.setText(data);
-                studentOneName.setText("Arnold Lui(EE/4th yr)");
-                studentTwoName.setText("Manish Kesharwani (CS/4th yr)");
+                studentOneName.setText("Arnold Lui\nEE/4th yr");
+                studentTwoName.setText("Manish Kesharwani\nCS/4th yr");
                 facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
-                facultyName2.setText("Mrs. Sapna Mathur \nAP-Hum");
+                facultyName2.setText("Mrs. Sapna Mathur\nAP-Hum");
                 studentOneContact.setText("9643023485");
                 studentTwoContact.setText("7503942814");
                 studentOneImage.setImageResource(R.drawable.arnold_ath);
                 studentTwoImage.setImageResource(R.drawable.manish_atheletics);
                 type.setText("None");
                 facultyImage.setImageResource(R.drawable.virendra_verma);
-                //facultyImage2.setImageResource(R.drawable.shafali_bhakshi);
+                facultyImage2.setImageResource(R.drawable.sapna_hum);
                 studentCoordinatorThree.setVisibility(View.GONE);
                 String relay_rules="<HTML>\n" +
                         "<BODY>\n" +
@@ -762,44 +767,44 @@ public class GamedetailActivity extends AppCompatActivity {
                 rules.loadData(relay_rules,"text/html","UTF-8");
             }
             break;
-            case "100m Three Legged Race": {
-                title.setText(data);
-                studentOneName.setText("Sudhanshu Rai (EE/4th yr)");
-
-                facultyName.setText("Dr. Kushalendraprathap Singh\nAP-PHYSICS");
-                studentOneContact.setText("9643461248");
-
-                type.setText("None");
-                studentOneImage.setImageResource(R.drawable.sudhanshu_three_legged);
-                //studentTwoImage.setImageResource(R.drawable.bulusu);
-               /* rules.setText("");*/
-                String legrace_rules="<HTML>\n" +
-                        "<BODY>\n" +
-                        "<p>\n" +
-                        "<b>No. Of players:</b> 2 per team<br>\n" +
-                        "<b>No. Of round:</b> Heats, semifinals and final<br>\n" +
-                        "<b>Track length:</b> 100m<br>\n" +
-                        " <b>Winning positions:</b> 1 st , 2 nd &amp; 3 rd<br>\n" +
-                        "<b>Rules:</b><br>\n" +
-                        "<b>1.</b> The players will stand next to each other, then the partners&#39; inside legs (the right leg of the partner on the left and the left leg of the partner on the right) will be tied together.<br>" +
-                        "\n" +
-                        "<b>2.</b> The teams are not allowed to change tracks at any point of time during the race, This will lead to disqualification.<br>" +
-                        "\n" +
-                        "<b>3.</b> No disqualification in case the players fall during the race, they can resume from the same point.<br>" +
-                        "\n" +
-                        "<b>4.</b> The team mates should preferably be of same height and built.<br>" +
-                        "\n" +
-                        "<b>5.</b> The first three teams to cross the finishing line will qualify for the next round.<br>"+                        "</p>\n" +
-                        "</BODY></HTML>";
-                rules.loadData(legrace_rules, "text/html", "UTF-8");
-
-                //facultyImage.setImageResource(R.drawable.kaushlendra_pratap_singh);
-                //studentOneImage.setImageResource(R.drawable.sudhanshu_three_legged);
-                facualtyCoordinatorTwo.setVisibility(View.GONE);
-                studentCoordinatorThree.setVisibility(View.GONE);
-                venue.setText("Outdoor-Football ground");
-            }
-            break;
+//            case "100m Three Legged Race": {
+//                title.setText(data);
+//                studentOneName.setText("Sudhanshu Rai (EE/4th yr)");
+//
+//                facultyName.setText("Dr. Kushalendraprathap Singh\nAP-PHYSICS");
+//                studentOneContact.setText("9643461248");
+//
+//                type.setText("None");
+//                studentOneImage.setImageResource(R.drawable.sudhanshu_three_legged);
+//                //studentTwoImage.setImageResource(R.drawable.bulusu);
+//               /* rules.setText("");*/
+//                String legrace_rules="<HTML>\n" +
+//                        "<BODY>\n" +
+//                        "<p>\n" +
+//                        "<b>No. Of players:</b> 2 per team<br>\n" +
+//                        "<b>No. Of round:</b> Heats, semifinals and final<br>\n" +
+//                        "<b>Track length:</b> 100m<br>\n" +
+//                        " <b>Winning positions:</b> 1 st , 2 nd &amp; 3 rd<br>\n" +
+//                        "<b>Rules:</b><br>\n" +
+//                        "<b>1.</b> The players will stand next to each other, then the partners&#39; inside legs (the right leg of the partner on the left and the left leg of the partner on the right) will be tied together.<br>" +
+//                        "\n" +
+//                        "<b>2.</b> The teams are not allowed to change tracks at any point of time during the race, This will lead to disqualification.<br>" +
+//                        "\n" +
+//                        "<b>3.</b> No disqualification in case the players fall during the race, they can resume from the same point.<br>" +
+//                        "\n" +
+//                        "<b>4.</b> The team mates should preferably be of same height and built.<br>" +
+//                        "\n" +
+//                        "<b>5.</b> The first three teams to cross the finishing line will qualify for the next round.<br>"+                        "</p>\n" +
+//                        "</BODY></HTML>";
+//                rules.loadData(legrace_rules, "text/html", "UTF-8");
+//
+//                //facultyImage.setImageResource(R.drawable.kaushlendra_pratap_singh);
+//                //studentOneImage.setImageResource(R.drawable.sudhanshu_three_legged);
+//                facualtyCoordinatorTwo.setVisibility(View.GONE);
+//                studentCoordinatorThree.setVisibility(View.GONE);
+//                venue.setText("Outdoor-Football ground");
+//            }
+//            break;
         }
     }
 }

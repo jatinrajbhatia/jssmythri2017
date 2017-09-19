@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity
         loginname = sharedPreferences.getString(USERNAME, "JSS");
         String id = sharedPreferences.getString(MYTHRI_ID, "mythri_dev_jss");
         if (!id.equals("mythri_dev_jss")) {
-            loginid = "MYTHRI_16_" + id;
+            loginid = "MYTHRI_17_" + id;
         }
 
         Toast.makeText(getApplicationContext(), loginname + " " + loginid, Toast.LENGTH_LONG).show();
@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.support) {
             android.support.v4.app.FragmentManager transaction = getSupportFragmentManager();
             transaction.beginTransaction().replace(R.id.main_frame, new Support()).commit();
+        } else if (id == R.id.committee) {
+            android.support.v4.app.FragmentManager transaction = getSupportFragmentManager();
+            transaction.beginTransaction().replace(R.id.main_frame, new Committee()).commit();
         } else if (id == R.id.share) {
             shareapp();
         }

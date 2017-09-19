@@ -82,12 +82,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/girish_sir_ped"
+                    android:src="@drawable/vikas_singhal"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mr.B E GIRISH\n(PED)"
+                    android:text="Mr.Vikas Singhal\n(HOD-MCA)"
                     android:textStyle="bold"
                     android:textSize="16dp"
                     android:padding="5dp"
@@ -109,12 +109,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/vikas_singhal"
+                    android:src="@drawable/girish_sir_ped"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mr.Vikas Singhal\n(HOD-MCA)"
+                    android:text="Mr.B E GIRISH\n(PED)"
                     android:textStyle="bold"
                     android:textSize="16dp"
                     android:padding="5dp"
