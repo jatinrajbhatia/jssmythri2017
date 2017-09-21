@@ -43,9 +43,40 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nDr. Abhayanand -- AP(MCA)\nMr. SS Rawat -- AP(CS)\nMr. Bhupesh Aneja -- AP(IC)\n\nSTUDENT COORDINATOR:\n1. Gaurav Kumar – MCA/Final year\n2. Sudhanshu Rai – EE/4th year\n3. Sanket Tripathi – EE/4th year\n4. Prathiksha – EE/4th year"
+                android:text="FACULTY COORDINATOR:"
                 android:textSize="18sp"
                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Dr. Abhayanand -- AP(MCA)\nMr. SS Rawat -- AP(CS)\nMr. Bhupesh Aneja -- AP(IC)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Gaurav Kumar – MCA/Final year\n2. Sudhanshu Rai – EE/4th year\n3. Sanket Tripathi – EE/4th year\n4. Prathiksha – EE/4th year"
+                android:textSize="18sp"
+                />
+
 
 
             <TextView
@@ -65,10 +96,39 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Prashanth Chowhan -- AP(ME) \n\nSTUDENT COORDINATOR:\n1. Devkumar Vashistha-ME/4th year\n2. Pushpendra Kumar-CE/4th year\n3. Rajath Singh- IT/4TH year"
+                android:text="FACULTY COORDINATOR:"
                 android:textSize="18sp"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Prashanth Chowhan -- AP(ME)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Devkumar Vashistha-ME/4th year\n2. Pushpendra Kumar-CE/4th year\n3. Rajath Singh- IT/4TH year"
+            android:textSize="18sp"
+            />
 
             <TextView
                 android:layout_width="match_parent"
@@ -87,7 +147,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Deeraj Pandey -- AP(IT)\nMr.Pradeep Kumar -- AP(IT)\nMr.Varun Kumar -- AP(EC)\n\nSTUDENT COORDINATOR:\n1. Nishkarsh Bansal-ME/4th year\n2. Kuldeep Yadav – ME/4th year\n3. Shubham Dubey–EC/4th year\n4. Shivam Deshwal – IT/4th year\n5. Shikhar Yadav– ME /4th year"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Deeraj Pandey -- AP(IT)\nMr.Pradeep Kumar -- AP(IT)\nMr.Varun Kumar -- AP(EC)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Nishkarsh Bansal-ME/4th year\n2. Kuldeep Yadav – ME/4th year\n3. Shubham Dubey–EC/4th year\n4. Shivam Deshwal – IT/4th year\n5. Shikhar Yadav– ME /4th year"
                 android:textSize="18sp"
                 />
 
@@ -108,7 +198,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nRespective Game Faculty coordinators \nMr.Uday Kumar -- Instructor (EC)\n\nSTUDENT COORDINATOR:\n1. Amardeep Singh–CE/4th year\n2. Birendra Yadav–CE/4th year \n3. Respective Game Coordinators"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Respective Game Faculty coordinators \nMr.Uday Kumar -- Instructor (EC)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Amardeep Singh–CE/4th year\n2. Birendra Yadav–CE/4th year \n3. Respective Game Coordinators"
                 android:textSize="18sp"
                 />
 
@@ -129,7 +249,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Yogesh.K.S -- AP(Civil)\nMr. Bharath -- AP(Civil)\nMr.Raghavendra -- AP(CE)\n\nSTUDENT COORDINATOR:\n1. Arnold Lui– EE/4th year\n2. Manish Kesharwani–CS/4th year\n3. Adity Srivastava-CS/4th year\n4. Respective Game Coordinators"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Yogesh.K.S -- AP(Civil)\nMr. Bharath -- AP(Civil)\nMr.Raghavendra -- AP(CE)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Arnold Lui– EE/4th year\n2. Manish Kesharwani–CS/4th year\n3. Adity Srivastava-CS/4th year\n4. Respective Game Coordinators"
                 android:textSize="18sp"
                 />
 
@@ -150,7 +300,36 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMrs. Parven Poon Tarang -- AP(EE)\nMrs. Roli Verma -- AP(Chem)\nMrs.Ranu Pandey -- AP(Maths)\nMrs.Shivani Dubey -- AP(MCA)\nMr.Yashwanth J -- AP(EC)\nMr.Lingraju R -- Instructor\nMr.Suresh H M -- Admin\nMr.Manjunath -- Attender\n\nSTUDENT COORDINATOR:\n1. Saurabh Bharadwaj – MCA/Final year \n2. Shreya Singh – EC/4th year\n3. Abhishek Tiwari - EEE/4th year\n4. Vivek Sharma – IT/4th year\n5. Arpit Gupta – ME/ 4th year\n6. Sakshi Gupta - CS/4th year\n7. Yamini Saurabh - EC/4th year\n8. Rishabh Mittal - EE/4th year"
+                android:text="FACULTY COORDINATOR"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mrs. Parven Poon Tarang -- AP(EE)\nMrs. Roli Verma -- AP(Chem)\nMrs.Ranu Pandey -- AP(Maths)\nMrs.Shivani Dubey -- AP(MCA)\nMr.Yashwanth J -- AP(EC)\nMr.Lingraju R -- Instructor\nMr.Suresh H M -- Admin\nMr.Manjunath -- Attender"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Saurabh Bharadwaj – MCA/Final year \n2. Shreya Singh – EC/4th year\n3. Abhishek Tiwari - EEE/4th year\n4. Vivek Sharma – IT/4th year\n5. Arpit Gupta – ME/ 4th year\n6. Sakshi Gupta - CS/4th year\n7. Yamini Saurabh - EC/4th year\n8. Rishabh Mittal - EE/4th year"
                 android:textSize="18sp"
                 />
 
@@ -171,10 +350,39 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nDr.Deepak Kumar -- HOD(Phy)\nMr. Rakesh Bhat -- AP(MBA)\nMr. Virendra Kr Verma -- AP(MT)\nMs. Shafali Bhakshi -- AP(CE)\nMr.B S Bharth Kupal -- AP(EC)\nMr. Shivanna L -- Instructor(ME)\nMr.Manjunath -- Instructor(EE)\n\nSTUDENT COORDINATOR:\n1. Saurabh Bharadwaj – MCA/Final year \n2. Shreya Singh – EC/4th year\n3. Abhishek Tiwari - EEE/4th year\n4. Vivek Sharma – IT/4th year\n5. Arpit Gupta – ME/ 4th year\n6. Sakshi Gupta - CS/4th year\n7. Yamini Saurabh - EC/4th year\n8. Rishabh Mittal - EE/4th year"
+                android:text="FACULTY COORDINATOR:"
                 android:textSize="18sp"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Dr.Deepak Kumar -- HOD(Phy)\nMr. Rakesh Bhat -- AP(MBA)\nMr. Virendra Kr Verma -- AP(MT)\nMs. Shafali Bhakshi -- AP(CE)\nMr.B S Bharth Kupal -- AP(EC)\nMr. Shivanna L -- Instructor(ME)\nMr.Manjunath -- Instructor(EE)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Saurabh Bharadwaj – MCA/Final year \n2. Shreya Singh – EC/4th year\n3. Abhishek Tiwari - EEE/4th year\n4. Vivek Sharma – IT/4th year\n5. Arpit Gupta – ME/ 4th year\n6. Sakshi Gupta - CS/4th year\n7. Yamini Saurabh - EC/4th year\n8. Rishabh Mittal - EE/4th year"
+                android:textSize="18sp"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -193,7 +401,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nDr. Bhupender Parashar -- Asso.Prof. Head(Maths)\nMrs. Deepa Tyagi -- AP(Eng)\nMrs. Ashima Srivastav -- AP(Chem)\nMrs. Nishi Sharma -- AP(Eng)\nMrs. Vineetha Khemchandani -- AP(Maths)\nMr. Uday Kumar -- Instructor(EC)\nMr. Karthik K C -- Instructor(ME)\nMr. Babu Prasad -- Instructor(IC)\nMr.Raghu S -- Instructor(ME)\n\nSTUDENT COORDINATOR:\n1. Shweta Rajiv Tripathi MCA/Final year\n2. Abhishek Tripathi-EE/4th year"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Dr. Bhupender Parashar -- Asso.Prof. Head(Maths)\nMrs. Deepa Tyagi -- AP(Eng)\nMrs. Ashima Srivastav -- AP(Chem)\nMrs. Nishi Sharma -- AP(Eng)\nMrs. Vineetha Khemchandani -- AP(Maths)\nMr. Uday Kumar -- Instructor(EC)\nMr. Karthik K C -- Instructor(ME)\nMr. Babu Prasad -- Instructor(IC)\nMr.Raghu S -- Instructor(ME)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Shweta Rajiv Tripathi MCA/Final year\n2. Abhishek Tripathi-EE/4th year"
                 android:textSize="18sp"
                 />
 
@@ -214,9 +452,40 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Sadashiva.T -- AP(MBA)\nMr.Harsha B P -- AP(ME)\nMr.Suhas A R -- Instructor(EE)\n\nSTUDENT COORDINATOR:\n1. Nishkarsh Bansal-ME/4th year"
+                android:text="FACULTY COORDINATOR:"
                 android:textSize="18sp"
                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Sadashiva.T -- AP(MBA)\nMr.Harsha B P -- AP(ME)\nMr.Suhas A R -- Instructor(EE)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Nishkarsh Bansal-ME/4th year"
+                android:textSize="18sp"
+                />
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -235,7 +504,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Nirmal Kumar Agarwal -- AP(EE)\n\nSTUDENT COORDINATOR:\n1. Rishabh Mittal - EE/4th year\n2. Tarun Garg - MBA/Final year"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Nirmal Kumar Agarwal -- AP(EE)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Rishabh Mittal - EE/4th year\n2. Tarun Garg - MBA/Final year"
                 android:textSize="18sp"
                 />
 
@@ -256,7 +555,17 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="\nSTUDENT COORDINATOR:\n1. Jatin Bhatia - MCA/Final year\n2. Sumit Gupta - MCA/Final year"
+                android:text="\nSTUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Jatin Bhatia - MCA/Final year\n2. Sumit Gupta - MCA/Final year"
                 android:textSize="18sp"
                 />
 
@@ -277,7 +586,37 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="FACULTY COORDINATOR: \nMr. Shashi Kumar -- AP(EC)\n\nSTUDENT COORDINATOR:\n1. Sayad Arshad Ali– /4th year \n2. Vaibhav Dwivedi–ME/4th year"
+                android:text="FACULTY COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="Mr. Shashi Kumar -- AP(EC)"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:text="STUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Sayad Arshad Ali– /4th year \n2. Vaibhav Dwivedi–ME/4th year"
                 android:textSize="18sp"
                 />
 
@@ -298,7 +637,17 @@
                 android:paddingRight="16dp"
                 android:paddingLeft="16dp"
                 android:textStyle="bold"
-                android:text="\nSTUDENT COORDINATOR:\n1. Shivam Gadgey–CE/4th year\n2. Jaswant Singh Yadav-ME/4th year"
+                android:text="\nSTUDENT COORDINATOR:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textStyle="italic"
+                android:text="1. Shivam Gadgey–CE/4th year\n2. Jaswant Singh Yadav-ME/4th year"
                 android:textSize="18sp"
                 />
 

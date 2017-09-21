@@ -571,23 +571,47 @@ public class GamedetailActivity extends AppCompatActivity {
                String kabaddi_rules="<HTML>\n" +
                        "<BODY>\n" +
                        "<p>\n" +
-                       "<b>Event 1 - Full court Match (Boys/Girls)</b><br>\n" +
-                       "<b>1.</b> Team can Have 5 playing members and 2 substitutes. (Total 7 Members)<br>\n" +
-                       "<b>2.</b> Match will be on full court.<br>\n" +
-                       "<b>3.</b> Match will be divided into 4 quarters.<br>\n" +
-                       "<b>4.</b> Each quarter will be of 7 minutes.<br>\n" +
-                       "<b>5.</b> Standard Basketball Rules apply.<br>\n" +
-                       "<b>6.</b> All the members of the team should be present during the match.<br>\n" +
-                       "<b>7.</b> If the team fails to report on time, the other team will be declared as winner.<br>\n" +
-                       "<b>Event 2 , 3 on 3 basketball (only for boys)</b><br>\n" +
-                       "<b>1.</b> Team can have 3 playing members and 1 substitute (Total 4 members).<br>\n" +
-                       "<b>2.</b> Match will be on Half Court.<br>\n" +
-                       "<b>3.</b> Match will be divided into 2 halves.<br>\n" +
-                       "<b>4.</b> Each half will be of mins.<br>\n" +
-                       "<b>5.</b> Half-court rules will be applied.<br>\n" +
-                       "<b>6.</b> All the members of the team should be present during the match.<br>\n" +
-                       "<b>7.</b> If the team fails to report on time, the other team will be declared as winner.<br>\n" +
+                       "<b>1.</b> Play in a flat, rectangular arena 13 meters (42.7 ft) wide x 10 meters (32.8 ft) long.<br>\n" +
+                       "<b>2.</b> Use lines and markings to divide the court appropriately. The following are the\n" +
+                       "official court markings as specified for professional Kabaddi; again, if you&#39;re playing\n" +
+                       "casually with friends, your markings don&#39;t need to be exact.<br>\n" +
+                       "<b>3.</b> Boundary lines: The lines at the edge of the 13 meter x 10 meter court.<br>\n" +
+                       "<b>4.</b> Play area lines: These lines mark a 13 meter x 8 meter rectangular area inside the\n" +
+                       "court — one meter of space separates each side from the 10 meter boundary lines\n" +
+                       "above.<br>\n" +
+                       "<b>5.</b> Mid line: This line divides the court into two 6.5 meters (21.3 ft) x 8 meter halves.\n" +
+                       "Each team&#39;s &quot;territory&quot; is the play area on its side of the mid line.<br>\n" +
+                       "<b>6.</b> Baulk lines: These lines run parallel to the mid line and are 3.75 meters (12.3 ft)\n" +
+                       "from it on either side.<br>\n" +
+                       "<b>7.</b> Bonus lines: These lines run parallel to the baulk lines and are 1 meter (3.3 ft) from\n" +
+                       "them on the side opposite the mid line.<br>\n" +
+                       "<b>8.</b> Divide into two teams of seven players each. Traditionally, four players from each team\n" +
+                       "take each side of the field, leaving each team with three players held in reserve. However,\n" +
+                       "some variations of Kabaddi call for all seven players to take the field at once.<br>\n" +
+                       "<b>9.</b> Flip a coin to decide which team will go first.<br>\n" +
+                       "<b>10.</b> Send players out when they are tagged, captured, or break a rule. In\n" +
+                       "Kabaddi, players can be temporarily sent &quot;out&quot; of play for a variety of reasons. If this\n" +
+                       "happens, they may not be replaced by players in reserve — substitutions are only\n" +
+                       "made for players who are not out. Below are a list of circumstances in which a player\n" +
+                       "may be sent out.<br>\n" +
+                       "<b>11.</b> If the raider tags any defending players and makes it back to his side, the players he\n" +
+                       "tagged are out.<br>\n" +
+                       "<b>12.</b> If a raider is captured and cannot pass back over the midline before he runs out of\n" +
+                       "breath, he is out.<br>\n" +
+                       "<b>13.</b> If any player (raiding or defending) steps outside the boundary lines, he is out\n" +
+                       "(unless he was deliberately pulled or shoved, in which case, the offending player is\n" +
+                       "out.)<br>\n" +
+                       "<b>14.</b> If a team has three unproductive raids in a row, the third raider is out. An\n" +
+                       "unproductive raid occurs when a raider cannot score any points (or loses points)\n" +
+                       "during a raid. However, if a raider can cross the baulk line and return to his side of\n" +
+                       "the court, the raid counts as a successful one even if he doesn&#39;t tag anyone.<br>\n" +
                        "</p>\n" +
+                       "<b>15.</b> If a defending team member enters the raider&#39;s side of the court before his team is\n" +
+                       "officially given the chance to raid, he is out.<br>\n" +
+                       "<b>16.</b> Score a &quot;Lona&quot; by getting the entire other team out. If you can get the entire\n" +
+                       "other team out at once for any combination of reasons and none of their players are\n" +
+                       "eligible for revival, your team scores a &quot;Lona&quot; (two extra points for that play.)<br>\n" +
+
                        "</BODY></HTML>";
                 rules.loadData(kabaddi_rules, "text/html", "UTF-8");
 
@@ -613,37 +637,25 @@ public class GamedetailActivity extends AppCompatActivity {
                         "<BODY>\n" +
                         "<p><b>General rules to play fun games:</b><br><br>\n" +
                         "\n" +
-                        "<b>o</b> The Mythri 2016 consists of 5 following fun games Blind Shoot, Dart, 3 shots, Basket\n" +
+                        "<b>o</b>DART -- EACH PARTICIPANT IS ALLOWED TO THROW 5 DARTS ON THE DARTBOARD\n" +
+                        "AND THE ONE WITH THE HIGHEST SCORE WILL WIN THE GAME.<br>\n" +
                         "\n" +
-                        "shoot, Ball Bounce.<br>\n" +
+                        "<b>o</b>3 SHOTS -- EACH PARTICIPANT IS ALLOWED TO TAKE 3 SHOTS ON THE CASTLE OF CUPS\n" +
+                        "FROM THEIR OPPOSITE HANDS.\n" +
+                        "THE PARTICIPANT WITH THE HIGHER NUMBER OF DOWN CUPS WILL WIN\n" +
+                        "THE GAME.<br>\n" +
                         "\n" +
-                        "<b>o</b> Each candidate has to get register on spot to each of the game at the registration\n" +
+                        "<b>o</b>BEAT THE TIME -- EACH PARTICIPANT HAS TO SHUFFLE A PACK OF 20 CUPS IN A QUEUE\n" +
+                        "ORDER IN SUCH A WAY THAT THE ODD COLOUR CUP COMES BACK TO ITS\n" +
+                        "ORIGINAL PLACE.\n" +
+                        "THE PARTICIPANT WITH THE LOWEST TIME, WILL BE DECLARED AS A\n" +
+                        "WINNER.<br>\n" +
                         "\n" +
-                        "desk of fun games (@ MPH).<br>\n" +
-                        "\n" +
-                        "<b>o</b> Each registered may get a separate coupon to play the game and to be handed over\n" +
-                        "\n" +
-                        "to the coordinators of the respective game.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Each registered can play one fun game a maximum of 5 times.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Each winner will not be permitted to play further, the same game once more.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Each game will be having its individual rules and regulation to be strictly followed.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Participants are expected to follow the instructions given by the coordinators of the\n" +
-                        "\n" +
-                        "respective game.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Any misbehavior from the participants may lead to disqualification from the game.<br>\n" +
-                        "\n" +
-                        "<b>o</b> The participant winning prize in all the 5 fun games will be awarded with an\n" +
-                        "\n" +
-                        "appreciation certificate.<br>\n" +
-                        "\n" +
-                        "<b>o</b> Player winning in the each game should register their name in the registration dusk\n" +
-                        "\n" +
-                        "for the further participation (@ MPH).</p><br>\n" +
+                        "<b>o</b>RING TOSS -- EACH PARTICPANT IS ALLOWED TO THROW 3 RINGS ON THE CONES OF\n" +
+                        "TWO DIFFERENT COLOURS.\n" +
+                        "AFTER PICKING UP THE COLOUR THEY HAVE TO AIM FOR THE CONES OF\n" +
+                        "THE SAME COLOUR AND THE POINTS WILL BE AWARDED ACCORDING TO\n" +
+                        "THAT." +
                         "</BODY></HTML>";
                 rules.loadData(fun_games_rule,"text/html","UTF-8");
                 type.setText("Blind Shoot,Dart ,3 Shots ,Basket Shoot ,Ball Bounce");

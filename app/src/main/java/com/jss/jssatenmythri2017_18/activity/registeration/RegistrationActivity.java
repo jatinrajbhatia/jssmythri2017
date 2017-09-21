@@ -390,7 +390,7 @@ public class RegistrationActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.logout) {
             logout();
         }else if(item.getItemId() == R.id.calladmin){
-            onCall("9456001138");
+            onCall("9958099621");
         }
         return super.onOptionsItemSelected(item);
     }

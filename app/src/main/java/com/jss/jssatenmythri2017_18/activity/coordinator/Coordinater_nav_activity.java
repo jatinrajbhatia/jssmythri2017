@@ -20,6 +20,7 @@ import com.jss.jssatenmythri2017_18.activity.Games;
 import com.jss.jssatenmythri2017_18.activity.LoginActivity;
 import com.jss.jssatenmythri2017_18.activity.Notification;
 import com.jss.jssatenmythri2017_18.activity.Support;
+import com.jss.jssatenmythri2017_18.activity.principal;
 
 public class Coordinater_nav_activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -44,7 +45,7 @@ public class Coordinater_nav_activity extends AppCompatActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
         android.support.v4.app.FragmentManager transaction =getSupportFragmentManager();
-        transaction.beginTransaction().replace(R.id.coordinater_frame,new About()).commit();
+        transaction.beginTransaction().replace(R.id.coordinater_frame,new principal()).commit();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
