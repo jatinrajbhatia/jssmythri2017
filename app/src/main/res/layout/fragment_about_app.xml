@@ -24,6 +24,18 @@
             android:gravity="center"
             android:textStyle="bold|italic"
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.1"
+            android:textColor="#117751"
+            android:textSize="18dp"
+            android:padding="1dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            />
+
         <View
             android:id="@+id/SplitLine_hor1"
             android:layout_width="match_parent"
@@ -35,38 +47,29 @@
             android:padding="5dp"
             android:orientation="vertical"
             >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="JSSATEN MYTHRI 2017-18 ANDROID"
-                android:textStyle="bold"
-                android:id="@+id/para1"
-                android:textSize="18dp"
-                android:textColor="#119"
-                android:gravity="center"
-                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="18dp"
                 android:id="@+id/para2"
                 android:textColor="#000000"
-                android:text=" App is created,hosted and maintained by "
+                android:text="A Complete solution of Annual Sports Meet MYTHRI conducted at JSSATE Noida, hosted and maintained by the"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="18dp"
+                android:textSize="16dp"
                 android:textColor="#119"
                 android:textStyle="bold"
-                android:text="Department Of Computer Applications."
+                android:text="Department Of Computer Applications-MCA"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\n\nIt would not have been possible to develop and tackle the issues regarding the making without the constant support of:\n"
+                android:text="\nIt would not have been possible to develop and tackle the issues regarding the making without the constant support of:\n"
                 android:textColor="#000000"
                 android:textSize="18dp"
                 />
@@ -206,6 +209,35 @@
                     />
 
             </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sumit"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sumit Gupta\n(MCA-2015 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
 
 
 
