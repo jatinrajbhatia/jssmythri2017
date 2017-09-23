@@ -105,14 +105,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.Viewholder >{
                         context.startActivity(intent);
 
                     }break;
-                    case "Shot Put":{
-
-                        
-                        Intent i=new Intent(context,GamedetailActivity.class);
-                        i.putExtra("title",vname);
-                        context.startActivity(i);
-
-                    }break;
+//                    case "Shot Put":{
+//
+//
+//                        Intent i=new Intent(context,GamedetailActivity.class);
+//                        i.putExtra("title",vname);
+//                        context.startActivity(i);
+//
+//                    }break;
                     case "Kabaddi":{
 
                         

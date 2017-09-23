@@ -76,12 +76,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Prof. (Dr.) Gurulingappa M. Patil\n(PRINCIPAL)"
+                    android:text="Prof. (Dr.) Gurulingappa M. Patil\n(Hon'ble PRINCIPAL)"
                     android:textStyle="bold"
                     android:textSize="14dp"
                     android:padding="5dp"
                     android:textColor="#119"
                     />
+
 
             </LinearLayout>
 
@@ -102,7 +103,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cmde B K Gupta NM(Retd.)\n(CAO)"
+                    android:text="Cmde B K Gupta NM(Retd.)\n(CHIEF ADMINISTRATIVE OFFICER)"
                     android:textStyle="bold"
                     android:textSize="14dp"
                     android:padding="5dp"
@@ -155,7 +156,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mr. N.S. Manoj Kumar\n(AO)"
+                    android:text="Mr. N.S. Manoj Kumar\n(ACCOUNTS OFFICER)"
                     android:textStyle="bold"
                     android:textSize="14dp"
                     android:padding="5dp"

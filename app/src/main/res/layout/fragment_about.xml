@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:padding="16dp"
-            android:text="7th ANNUAL SPORTS (MYTHRI) DAY CELEBRATION"
+            android:text="7th ANNUAL SPORTS DAY(MYTHRI-17) CELEBRATION"
             android:textColor="#196"
             android:textStyle="bold"/>
 

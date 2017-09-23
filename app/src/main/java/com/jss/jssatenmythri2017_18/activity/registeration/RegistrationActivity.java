@@ -340,7 +340,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     startActivity(i);
                 } else if (seleccted_games.equals("Cricket") || seleccted_games.equals("Volleyball") ||
                         (seleccted_games.equals("Basketball") && selected_types.equals("3 On 3"))
-                        || (seleccted_games.equals("Football"))) {
+                        ) {
                     Intent i = new Intent(RegistrationActivity.this, F8Activity.class);
                     i.putExtra("game", seleccted_games);
                     i.putExtra("type", selected_types);
@@ -348,14 +348,14 @@ public class RegistrationActivity extends AppCompatActivity {
                     i.putExtra("nos", 6);
                     startActivity(i);
                 } else if (seleccted_games.equals("Kabaddi") ||
-                        (seleccted_games.equals("Basketball") && selected_types.equals("5 On 5"))) {
+                        (seleccted_games.equals("Basketball") && selected_types.equals("5 On 5") )) {
                     Intent i = new Intent(RegistrationActivity.this, F8Activity.class);
                     i.putExtra("game", seleccted_games);
                     i.putExtra("type", selected_types);
                     i.putExtra("gender",selected_gender);
                     i.putExtra("nos", 7);
                     startActivity(i);
-                } else if (seleccted_games.equals("Tug Of War") || (seleccted_games.equals("Football") && selected_gender.equals("Boy(s)"))) {
+                } else if (seleccted_games.equals("Tug Of War") || (seleccted_games.equals("Football"))) {
                     Intent i = new Intent(RegistrationActivity.this, F8Activity.class);
                     i.putExtra("game", seleccted_games);
                     i.putExtra("type", selected_types);
